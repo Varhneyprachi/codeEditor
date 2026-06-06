@@ -102,3 +102,93 @@ NovaCore-main
 │   └── package.json
 │
 └── documentation
+
+
+## ▶️ How to Run the Project
+
+### Step 1: Clone the Repository
+
+```bash
+git clone <repository-url>
+cd NovaCore-main
+```
+
+### Step 2: Configure Environment Variables
+
+Create a `.env` file inside the backend directory and add the required MongoDB connection string and JWT secret.
+
+```env
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+```
+
+### Step 3: Install Backend Dependencies
+
+```bash
+cd backend
+npm install
+```
+
+### Step 4: Start Backend Server
+
+```bash
+npm start
+```
+
+Backend server will run on:
+
+```bash
+http://localhost:5000
+```
+
+### Step 5: Install Frontend Dependencies
+
+Open a new terminal:
+
+```bash
+cd frontend
+npm install
+```
+
+### Step 6: Start Frontend Application
+
+```bash
+npm start
+```
+
+Frontend will run on:
+
+```bash
+http://localhost:3000
+```
+
+### Step 7: Access NovaCore
+
+Open your browser and visit:
+
+```bash
+http://localhost:3000
+```
+
+### Step 8: Use the Platform
+
+- Register/Login to your account
+- Select a programming language
+- Write code in the editor
+- Execute code and view output
+- Upload images for OCR text extraction
+- Convert speech into text using Voice-to-Text
+
+---
+
+## 🧪 Supported Languages
+
+| Language | Execution Support |
+|-----------|------------------|
+| JavaScript | ✅ |
+| Python | ✅ |
+| Dart | ✅ |
+| HTML | ✅ |
+| CSS | ✅ |
+| Java | ✅ |
+
