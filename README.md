@@ -102,9 +102,9 @@ NovaCore-main
 │   └── package.json
 │
 └── documentation
+```
 
-
-## ▶️ How to Run the Project
+## How to Run the Project
 
 ### Step 1: Clone the Repository
 
@@ -137,13 +137,13 @@ npm start
 
 Backend server will run on:
 
-```bash
+```text
 http://localhost:5000
 ```
 
 ### Step 5: Install Frontend Dependencies
 
-Open a new terminal:
+Open a new terminal and run:
 
 ```bash
 cd frontend
@@ -158,7 +158,7 @@ npm start
 
 Frontend will run on:
 
-```bash
+```text
 http://localhost:3000
 ```
 
@@ -166,13 +166,13 @@ http://localhost:3000
 
 Open your browser and visit:
 
-```bash
+```text
 http://localhost:3000
 ```
 
 ### Step 8: Use the Platform
 
-- Register/Login to your account
+- Register or Login
 - Select a programming language
 - Write code in the editor
 - Execute code and view output
@@ -181,14 +181,13 @@ http://localhost:3000
 
 ---
 
-## 🧪 Supported Languages
+## Supported Languages
 
-| Language | Execution Support |
-|-----------|------------------|
+| Language | Supported |
+|----------|-----------|
 | JavaScript | ✅ |
 | Python | ✅ |
 | Dart | ✅ |
 | HTML | ✅ |
 | CSS | ✅ |
 | Java | ✅ |
-
